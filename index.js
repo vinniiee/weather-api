@@ -58,6 +58,10 @@ app.post("/bookmarks/remove", async(req,res)=>{
 
 });
 
+app.get("/", (req,res)=>{
+    res.send("Weather-api: Database api for weather app.");
+})
+
 app.listen(process.env.PORT|3001, ()=>{
     console.log("Listening on 3001...")
 })
