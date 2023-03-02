@@ -62,6 +62,6 @@ app.get("/", (req,res)=>{
     res.send("Weather-api: Database api for weather app.");
 })
 
-app.listen(process.env.PORT|3001, ()=>{
-    console.log("Listening on 3001...")
+app.listen(process.env.PORT||3001, ()=>{
+    console.log(`Listening on port ${process.env.PORT||3001}...`);
 })
