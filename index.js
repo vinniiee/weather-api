@@ -3,7 +3,6 @@ const express = require("express");
 const mongoose=  require('mongoose');
 const  City  = require("./database");
 const cors = require("cors");
-
 const app = express();
 
 app.use(json());

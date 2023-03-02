@@ -4,9 +4,9 @@
   "description": "Database API for weather-app",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":" ",
+    "build": " ",
     "dev": "nodemon index.js"
   },
   "author": "vinniiee",
@@ -14,6 +14,7 @@
   "dependencies": {
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^7.0.0"
   }
